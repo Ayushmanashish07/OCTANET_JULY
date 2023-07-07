@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+.navigation-bar {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 30px;
+}
+
+header {
+  background-color: #fef5ed;
+  padding: 10px;
+  text-size-adjust: 0.5em;
+}
+
+header span {
+  position: absolute;
+  font-size: x-large;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+  box-sizing: border-box;
+  font-size: larger;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+nav ul li a:hover {
+  color: #0a2199;
+}
+
+.hero {
+  background-image: url("hero-image.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.hero-content {
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.btn:hover {
+  background-color: black;
+  cursor: pointer;
+}
+#head1 {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  height: 2em;
+}
+
+.product-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.product-card {
+  width: 250px;
+  height: 400px;
+  border: 1px solid #ccc;
+  padding: 0px 20px;
+  margin: 0px 40px;
+  text-align: center;
+  align-items: center;
+}
+.product-card:hover {
+  background-color: #d3e4cd;
+  color: black;
+}
+.product-card::after {
+  box-sizing: border-box(300px, 450px);
+}
+
+.product-card img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.product-card h3 {
+  margin-top: 10px;
+}
+
+.product-card p {
+  margin: 5px 0;
+}
+
+footer p {
+  height: 3em;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  background-color: #fef5ed;
+}
